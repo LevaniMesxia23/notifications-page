@@ -6,16 +6,15 @@
       "time": "1m ago",
       "profilePicture": "/images/avatar-mark-webber.webp",
       "action": "reacted to your recent post",
-      "post": "My first tournament today!",
+      "content": "My first tournament today!",
       "isUnread": true
     },
     {
       "id": 2,
       "name": "Angela Gray",
       "time": "5m ago",
-      "profilePicture": "/images/angela-gray.webp",
+      "profilePicture": "/images/avatar-angela-gray.webp",
       "action": "followed you",
-      "post": "",
       "isUnread": true
     },
     {
@@ -24,7 +23,7 @@
       "time": "1 day ago",
       "profilePicture": "/images/avatar-jacob-thompson.webp",
       "action": "has joined your group",
-      "post": "Chess Club",
+      "group": "Chess Club",
       "isUnread": true
     },
     {
@@ -33,7 +32,6 @@
       "time": "5 day ago",
       "profilePicture": "/images/avatar-rizky-hasanuddin.webp",
       "action": "sent you a private message",
-      "post": "",
       "isUnread": false
     },
     {
@@ -42,7 +40,6 @@
       "time": "1 week ago",
       "profilePicture": "/images/avatar-kimberly-smith.webp",
       "action": "commented on your picture",
-      "post": "",
       "isUnread": false
     },
     {
@@ -51,7 +48,7 @@
       "time": "2 week ago",
       "profilePicture": "/images/avatar-nathan-peterson.webp",
       "action": "reacted to your recent post",
-      "post": "5 end-game strategies to increase your win rate",
+      "content": "5 end-game strategies to increase your win rate",
       "isUnread": false
     },
     {
@@ -60,7 +57,7 @@
       "time": "2 week ago",
       "profilePicture": "/images/avatar-anna-kim.webp",
       "action": "left the group",
-      "post": "Chess Club",
+      "group": "Chess Club",
       "isUnread": false
     }
   ]

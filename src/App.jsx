@@ -7,7 +7,7 @@ import Boxes from './components/Boxes'
 
 
 function App() {
-
+console.log(data)
   return (
     <>
       <GlobalStyles />
@@ -19,8 +19,8 @@ function App() {
           </div>
           <span className='mark'>Mark all as read</span>
         </div>
-        {data.notifications.map(() => {
-        return <Boxes />
+        {data.notifications.map((item) => {
+        return <Boxes key={item.id} {...item}/>
       })}
       </Main>
       
