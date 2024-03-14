@@ -1,0 +1,67 @@
+{
+  "notifications":[
+    {
+      "id": 1,
+      "name": "Mark Webber",
+      "time": "1m ago",
+      "profilePicture": "/images/avatar-mark-webber.webp",
+      "action": "reacted to your recent post",
+      "post": "My first tournament today!",
+      "isUnread": true
+    },
+    {
+      "id": 2,
+      "name": "Angela Gray",
+      "time": "5m ago",
+      "profilePicture": "/images/angela-gray.webp",
+      "action": "followed you",
+      "post": "",
+      "isUnread": true
+    },
+    {
+      "id": 3,
+      "name": "Jacob Thompson",
+      "time": "1 day ago",
+      "profilePicture": "/images/avatar-jacob-thompson.webp",
+      "action": "has joined your group",
+      "post": "Chess Club",
+      "isUnread": true
+    },
+    {
+      "id": 4,
+      "name": "Rizky Hasanuddin",
+      "time": "5 day ago",
+      "profilePicture": "/images/avatar-rizky-hasanuddin.webp",
+      "action": "sent you a private message",
+      "post": "",
+      "isUnread": false
+    },
+    {
+      "id": 5,
+      "name": "Kimberly Smith",
+      "time": "1 week ago",
+      "profilePicture": "/images/avatar-kimberly-smith.webp",
+      "action": "commented on your picture",
+      "post": "",
+      "isUnread": false
+    },
+    {
+      "id": 6,
+      "name": "Nathan Peterson",
+      "time": "2 week ago",
+      "profilePicture": "/images/avatar-nathan-peterson.webp",
+      "action": "reacted to your recent post",
+      "post": "5 end-game strategies to increase your win rate",
+      "isUnread": false
+    },
+    {
+      "id": 7,
+      "name": "Anna Kim",
+      "time": "2 week ago",
+      "profilePicture": "/images/avatar-anna-kim.webp",
+      "action": "left the group",
+      "post": "Chess Club",
+      "isUnread": false
+    }
+  ]
+}

@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import { GlobalStyles } from './Globals'
 import styled from 'styled-components'
+
+
 function App() {
 
   return (
@@ -16,6 +18,7 @@ function App() {
           <span className='mark'>Mark all as read</span>
         </div>
       </Main>
+      <Boxes />
     </>
   )
 }
