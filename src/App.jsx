@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import { GlobalStyles } from './Globals'
 import styled from 'styled-components'
+import data from "./data.json"
+import Boxes from './components/Boxes'
 
 
 function App() {
@@ -17,15 +19,18 @@ function App() {
           </div>
           <span className='mark'>Mark all as read</span>
         </div>
+        {data.notifications.map(() => {
+        return <Boxes />
+      })}
       </Main>
-      <Boxes />
+      
     </>
   )
 }
 
 const Main = styled.main`
   width: 730px;
-  height: 839px;
+  height: auto;
   flex-shrink: 0;
   background-color: #fff;
   box-shadow: 0px 20px 60px 0px rgba(73, 97, 168, 0.05);
@@ -36,6 +41,7 @@ const Main = styled.main`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 31px;
   }
 
   .notification-header{
