@@ -1,10 +1,10 @@
 import styled from 'styled-components'
-
+import { useState } from 'react'
 import data from "../data.json"
 
 
-export default function Boxes({ setCount,id, name, action, time, content, profilePicture, group, isDifferent, isUnread, oval }){
-  
+export default function Boxes({ markAsRead,count,setCount,id, name, action, time, content, profilePicture, group, isDifferent, isUnread, oval }){
+
   if(isDifferent) return (
     <div>
     <FirstBox>
@@ -27,7 +27,10 @@ export default function Boxes({ setCount,id, name, action, time, content, profil
   )
   return (
       <div>
-        <Box isUnread={isUnread}>
+        <Box onClick={() => {
+          (markAsRead(index))
+          
+        }} isUnread={isUnread}>
         <img src={profilePicture} alt="" />
         <div className='container'>
         <div className='top-div'>
@@ -163,6 +166,7 @@ const Box = styled.div`
   align-items: center;
   padding-left: 20px;
   background-color: ${({ isUnread }) => (isUnread ? "var(--8---Snow, #F7FAFD)" : "transparent")};
+  cursor: pointer;
 
 
   img{
