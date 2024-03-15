@@ -5,10 +5,8 @@ import styled from 'styled-components'
 import data from "./data.json"
 import Boxes from './components/Boxes'
 
-
-
 function App() {
-console.log(data)
+  const [count, setCount] = useState(3)
   return (
     <>
       <GlobalStyles />
@@ -16,12 +14,12 @@ console.log(data)
         <div className='header'>
           <div className='notification-header'>
             <h2>Notifications</h2>
-            <span className='notification-num'>3</span>
+            <span className='notification-num'>{count}</span>
           </div>
           <span className='mark'>Mark all as read</span>
         </div>
-        {data.notifications.map((item, index) => {
-        return <Boxes key={item.id} {...item} isDifferent={item.action.includes("private")}/>
+        {data.notifications.map((item) => {
+        return <Boxes key={item.id} {...item} isDifferent={item.action.includes("private")} isUnread={item.isUnread} oval={item.oval}/>
       })}
       </Main>
       
@@ -79,6 +77,10 @@ const Main = styled.main`
       font-weight: 500;
       line-height: normal;
       color: var(--4---Dark-Grey-Blue, #5E6778);
+    }
+    .mark:hover{
+      color: var(--1---Blue, #0A327B);
+        cursor: pointer;
     }
 `
 

@@ -7,7 +7,8 @@
       "profilePicture": "/images/avatar-mark-webber.webp",
       "action": "reacted to your recent post",
       "content": "My first tournament today!",
-      "isUnread": true
+      "isUnread": true,
+      "oval": true
     },
     {
       "id": 2,
@@ -15,7 +16,8 @@
       "time": "5m ago",
       "profilePicture": "/images/avatar-angela-gray.webp",
       "action": "followed you",
-      "isUnread": true
+      "isUnread": true,
+      "oval": true
     },
     {
       "id": 3,
@@ -24,7 +26,8 @@
       "profilePicture": "/images/avatar-jacob-thompson.webp",
       "action": "has joined your group",
       "group": "Chess Club",
-      "isUnread": true
+      "isUnread": true,
+      "oval": true
     },
     {
       "id": 4,
