@@ -19,7 +19,7 @@ function App() {
           <span className='mark'>Mark all as read</span>
         </div>
         {data.notifications.map((item) => {
-        return <Boxes key={item.id} {...item} isDifferent={item.action.includes("private")} isUnread={item.isUnread} oval={item.oval}/>
+        return <Boxes key={item.id} {...item} isDifferent={item.action.includes("private")} isUnread={item.isUnread} oval={item.oval} setCount={setCount}/>
       })}
       </Main>
       

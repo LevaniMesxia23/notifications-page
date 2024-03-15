@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import data from "../data.json"
 
 
-export default function Boxes({ id, name, action, time, content, profilePicture, group, isDifferent, isUnread, oval }){
+export default function Boxes({ setCount,id, name, action, time, content, profilePicture, group, isDifferent, isUnread, oval }){
+  
   if(isDifferent) return (
     <div>
     <FirstBox>
