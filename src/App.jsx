@@ -6,6 +6,7 @@ import data from "./data.json"
 import Boxes from './components/Boxes'
 
 
+
 function App() {
 console.log(data)
   return (
@@ -19,8 +20,8 @@ console.log(data)
           </div>
           <span className='mark'>Mark all as read</span>
         </div>
-        {data.notifications.map((item) => {
-        return <Boxes key={item.id} {...item}/>
+        {data.notifications.map((item, index) => {
+        return <Boxes key={item.id} {...item} isDifferent={item.action.includes("private")}/>
       })}
       </Main>
       
